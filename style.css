@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    font-family: "Inter",'sans-serif';
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    height: 100vh;
+}
+
+.links-card{
+    background-color: rgb(227, 204, 189);
+    padding: 40px 50px;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0px 18px 30px rgba(0, 0, 0, 0.5);  /* 0px Moves the shadow left or right
+                                                        18px Moves the shadow up or down    
+                                                        30px  Controls how soft or blurry the shadow is Larger number = more blur*/ 
+}
+
+.avtar{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.90);
+}
+
+.links-card h2{
+    color: black;
+    margin: 12px 0 8px;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.bio{
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #555;
+}
+
+.links a{
+    display: block;
+    background-color: white;
+    color: #00799b;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 15px;
+    transition: all 0.5s ease;
+}
+
+.links a:hover{
+    background-color: rgb(78, 127, 200);
+    color: rgb(119, 219, 115);
+    
+}
